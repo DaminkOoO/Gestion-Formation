@@ -1,0 +1,169 @@
+body{
+    background-color: #201E20;
+    background-image: url(../Assets/Background.png);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+
+}
+a{
+    font-family: 'Open Sans';
+}
+
+h1{
+    margin: 0;
+    font-family: Overlock;
+    color: white;
+    text-transform: uppercase;
+}
+.title>span{
+    font-family: Overlock;
+    color:white;
+}
+.container{
+
+    height: 100%;
+    width: calc(100% - 280px );
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 75px auto;
+    
+}
+.navbar{
+
+    width: 100%;
+    height: 69px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+
+    text-transform: capitalize;
+}
+
+.navbar > a[href="register.php"],.navbar > a[href="login.php"]{
+    margin-left: auto;
+    text-decoration: none;
+    color:#DDC3A5;
+    transition: ease-out 300ms;
+
+}
+.hlink{
+    text-decoration: none;
+    color:#DDC3A5;
+    transition: ease-out 300ms;
+}
+.navbar > a[href="register.php"]:hover,.hlink:hover,.navbar > a[href="login.php"]:hover{
+    text-decoration: underline;
+    color:#fff;
+    transition: ease-out 300ms;
+}
+.content{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.content svg{
+    margin-right: 15%;
+}
+.content .register{
+    position: relative;
+    top: 56px;
+    background-color:#0D0C0D ;
+    padding: 29px 50px;
+    border-radius: 23px;
+}
+.login{
+
+    position: relative;
+    background-color: #0D0C0D;
+    padding: 29px 50px;
+    width: 550px;
+    height: 300px;
+    top: 150px;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login > .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    width: 508px;
+    height: 49px;
+}
+.title>span{
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+label{
+
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 422px;
+height: 31px;
+    padding-left:10px ;
+    border-radius: 15px;
+}
+.login-button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7px 29px;
+gap: 10px;
+width: 154px;
+height: 46px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap ;
+    flex-direction: column;
+}
+.checkbox{
+    position: relative;
+    right:130px;
+}
+.checkbox input{
+    width: 17px;
+    height: 17px;
+}
+.checkbox label{
+    position: relative;
+    bottom: 3px;
+}
+.login-button{
+    border-radius: 15px;
+    padding: 7px 23px;
+    font-size: 20px;
+    transition: ease-out 300ms;
+}
+.login-button:hover{
+    color: white;
+    background-color: #DDC3A5;
+    transition: ease-out 300ms;
+}
+.illustration{
+    position: absolute;
+    top:75%;
+    left: 10%;
+}
+
